@@ -104,8 +104,7 @@ p {
   padding: 1.5rem;
   margin: 2rem;
   border-radius: 2rem;
-  border: none;
-  background-color: transparent;
+  border-color: #dfe1e6;
   display: flex;
   justify-content: center;
   align-items: center;
