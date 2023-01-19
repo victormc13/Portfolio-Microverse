@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="baner.png" alt="logo" width="100%"  height="auto" />
+  <img src="icons/baner.png" alt="logo" width="100%"  height="auto" />
   <br/>
 
   <h3><b>Portfolio Microverse</b></h3>
