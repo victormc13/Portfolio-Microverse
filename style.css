@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/** Flex header container */
+.header-container {
+  padding-bottom: 0;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/** Items header container */
+.header-container a {
+  text-decoration: none;
+  color: #28352f;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.menu-btn {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+/** Flex main container  */
+.main-heading {
+  margin-top: 4.5rem;
+  padding-top: 10%;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: url(icons/header-illsutration-mobile.svg);
+}
+
+/** Items main container */
+.intro-container {
+  margin-top: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+span {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 52px;
+  color: #36b37e;
+}
+
+p {
+  padding: 0 2.5rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #172b4d;
+}
+
+.action-btn {
+  width: 20px;
+  height: 20px;
+  padding: 1.5rem;
+  margin: 2rem;
+  border-radius: 50%;
+  border: 1px solid silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-btn:hover {
+  cursor: pointer;
+  background-color: #36b37e;
+}
