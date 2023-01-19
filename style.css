@@ -103,8 +103,8 @@ p {
   height: 20px;
   padding: 1.5rem;
   margin: 2rem;
-  border-radius: 2rem;
-  border-color: #dfe1e6;
+  border-radius: 50%;
+  border: 1px solid silver;
   display: flex;
   justify-content: center;
   align-items: center;
