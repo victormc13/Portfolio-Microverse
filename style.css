@@ -38,6 +38,7 @@ h1 {
 }
 
 h3 {
+  margin: 0;
   font-weight: 600;
   font-size: 24px;
 }
@@ -136,10 +137,21 @@ p {
   align-items: center;
 }
 
+.action-btn:enabled {
+  cursor: pointer;
+  color: var(--primary-white-light);
+}
+
 .action-btn:hover {
   cursor: pointer;
   color: var(--primary-white-light);
   background-color: var(--primary-green);
+  box-shadow: 1px 10px 10px #3a4a42;
+}
+
+.action:active {
+  color: var(--primary-white-light);
+  background-color: #008552;
 }
 
 /** My Recent Works section  */
@@ -185,7 +197,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
 }
 
@@ -222,12 +234,27 @@ p {
 }
 
 .project-btn {
+  margin-bottom: 1rem;
   padding: 10px 8px;
   border: 4px;
   font-size: 17px;
   border-radius: 4px;
   color: var(--primary-white-light);
   background-color: var(--project-btn);
+}
+
+.project-btn:enabled {
+  color: var(--primary-white-light);
+  background-color: var(--project-btn);
+}
+
+.project-btn:hover {
+  box-shadow: 1px 10px 10px var(--primary-green-dark);
+}
+
+.project-btn:active {
+  color: var(--primary-white-light);
+  background-color: #008552;
 }
 
 /** About me section */
@@ -330,7 +357,10 @@ p {
   align-self: center;
 }
 
-.flex-content > h3 {
+.title-list {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -355,4 +385,21 @@ p {
   border: 2px solid transparent;
   color: var(--primary-green);
   background-color: var(--primary-white-light);
+}
+
+.resume-btn:enabled {
+  cursor: pointer;
+  color: var(--primary-white-light);
+}
+
+.resume-btn:hover {
+  cursor: pointer;
+  color: var(--primary-white-light);
+  background-color: var(--primary-green);
+  box-shadow: 1px 10px 10px var(--primary-green-dark);
+}
+
+.resume-btn:active {
+  color: var(--primary-white-light);
+  background-color: #008552;
 }
