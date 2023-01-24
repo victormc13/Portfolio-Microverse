@@ -421,6 +421,13 @@ p {
   height: 48px;
 }
 
+#user_email {
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+  width: 327px;
+  height: 48px;
+}
+
 .contact-flex p {
   width: 327px;
   height: 363px;
