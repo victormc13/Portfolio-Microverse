@@ -166,7 +166,7 @@ p {
   gap: 1rem;
 }
 
-.works-section>h2 {
+.works-section > h2 {
   text-align: center;
   padding: 0 3rem 0 3rem;
   color: var(--primary-blue-dark);
@@ -222,7 +222,7 @@ p {
   gap: 0.5rem;
 }
 
-.item-tags>li {
+.item-tags > li {
   text-align: center;
   font-weight: 600;
   font-size: 10px;
@@ -273,14 +273,14 @@ p {
   align-items: center;
 }
 
-.about-flex-container1>h2 {
+.about-flex-container1 > h2 {
   color: var(--primary-blue-dark);
   text-align: end;
   flex: 1 2 700px;
   align-self: flex-end;
 }
 
-.about-flex-container1>p {
+.about-flex-container1 > p {
   width: 351px;
   color: #42526e;
   font-style: normal;
@@ -308,7 +308,7 @@ p {
   background-color: var(--project-btn);
 }
 
-/** Here starts cards of About me section*/
+/** Here starts cards of About me section */
 
 .about-grid-container {
   margin: 0;
@@ -375,7 +375,7 @@ p {
   gap: 0.5rem;
 }
 
-.content-tags>li {
+.content-tags > li {
   text-align: center;
   font-weight: 600;
   font-size: 12px;
@@ -407,6 +407,7 @@ p {
 /** Contact form section */
 .contact-flex {
   text-align: center;
+
   /* padding: 46px 24px 0px 24px; */
   display: flex;
   flex-direction: column;
@@ -417,13 +418,13 @@ p {
 }
 
 .contact-flex h2 {
-  padding: 46px 24px 0px 24px;
+  padding: 46px 24px 0 24px;
 }
 
 form {
   text-align: center;
   margin-top: 58px;
-  padding: 0px;
+  padding: 0;
   width: 327px;
   height: auto;
   display: flex;
@@ -439,7 +440,7 @@ form {
 .input-item {
   width: 327px;
   height: 48px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -454,7 +455,7 @@ form {
 }
 
 input::placeholder {
-  color: #6B778C;
+  color: #6b778c;
   font-weight: 400;
   font-size: 15px;
 }
@@ -463,7 +464,7 @@ textarea {
   width: 327px;
   height: 114px;
   padding: 0;
-  border: 1px solid #60C095;
+  border: 1px solid #60c095;
   border-radius: 4px;
 }
 
@@ -473,14 +474,13 @@ textarea::placeholder {
   font-size: 15px;
   line-height: 24px;
   padding: 10px;
-  color: var(--primary-blue-dark)
+  color: var(--primary-blue-dark);
 }
 
 .form-field button {
   width: 129px;
   height: 48px;
   text-align: center;
-  font-family: 'Inter';
   font-style: normal;
   line-height: 24px;
   font-size: 17px;
@@ -504,4 +504,16 @@ footer {
   gap: 1.5rem;
 }
 
+.contact-email {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.contact-email a {
+  margin-bottom: 200px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #42526e;
+}
