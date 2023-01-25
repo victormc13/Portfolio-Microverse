@@ -440,7 +440,6 @@ form {
 .input-item {
   width: 327px;
   height: 48px;
-  border: 1px solid #d0d9d4;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -449,35 +448,38 @@ form {
 
 .input-item input {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 15px;
   padding: 15px 16px;
-  border: none;
+  border: 2px solid #d0d9d4;
+  border-radius: 4px;
   display: flex;
   align-items: center;
 }
 
-input::placeholder {
-  color: #6b778c;
+input:focus {
+  outline: none;
+  border: 2px solid #60c095;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 textarea {
   width: 90%;
   height: 114px;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 15px;
   font-family: inherit;
-  border: 1px solid #60c095;
+  border: 2px solid #d0d9d4;
   border-radius: 4px;
 }
 
-textarea::placeholder {
+textarea:focus {
+  outline: none;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 24px;
-  color: var(--primary-blue-dark);
+  border: 2px solid #60c095;
 }
 
 .form-field button {
@@ -503,7 +505,6 @@ textarea::placeholder {
   cursor: pointer;
   color: var(--primary-white-light);
   background-color: var(--primary-green);
-  box-shadow: 1px 10px 10px var(--primary-green-dark);
 }
 
 .form-btn:active {
