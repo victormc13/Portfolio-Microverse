@@ -233,18 +233,58 @@
 				</div>
 			</article>
 		</section>
-		<!-- Contact form section  -->
-		<section class="contact-flex">
-			<p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-			<form>
-				<ul>
-					<li>
-						<input type="text" id="user_name" placeholder="Full name" required/>
-					</li>
-				</ul>
-			</form>
-		</section>
-		
+	</section>
+	<!-- Contact form section  -->
+	<section class="contact-flex">
+		<h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+		<form>
+			<ul class="form-field">
+				<li class="input-item">
+					<input type="text" name="user_name" placeholder="Full name" maxlength="30" required />
+				</li>
+				<li class="input-item">
+					<input type="email" name="user_email" placeholder="Email address" required />
+				</li>
+				<textarea name="user_message" cols="30" rows="10" placeholder="Enter text here" maxlength="500"
+					required></textarea>
+
+				<button type="submit" name="user_message">Get in touch
+				</button>
+			</ul>
+		</form>
+	</section>
+	<!-- Footer section -->
+	<footer>
+		<ul class="footermedia-flex">
+			<li>
+				<a class="socialmedia" href="https://twitter.com/VctorMC20">
+					<img src="icons/twitter.svg" alt="twitter-icon">
+				</a>
+			</li>
+			<li>
+				<a class="socialmedia" href="https://www.linkedin.com/in/victormc13/">
+					<img src="icons/Linkedin.svg" alt="linkein">
+				</a>
+			</li>
+			<li>
+				<a class="socialmedia" href="https://medium.com/">
+					<img src="icons/medium.svg" alt="medium">
+				</a>
+			</li>
+			<li>
+				<a class="socialmedia" href="https://github.com/victormc13">
+					<img src="icons/github.svg" alt="github">
+				</a>
+			</li>
+			<li>
+				<a class="socialmedia" href="https://angel.co/jobs/signup?source=homepage&source_content=nav">
+					<img src="icons/angellist.svg" alt="angellist">
+				</a>
+			</li>
+			<img class="img-item" src="icons/illustration-contact-form.svg" alt="form image">
+		</ul>
+	</footer>
+
 </body>
 
 </html>

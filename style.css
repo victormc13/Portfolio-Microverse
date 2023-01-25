@@ -86,7 +86,7 @@ header {
 .main-heading {
   margin-top: 4.5rem;
   padding-top: 10%;
-  width: 100vw;
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -308,7 +308,7 @@ p {
   background-color: var(--project-btn);
 }
 
-/** Here starts */
+/** Here starts cards of About me section*/
 
 .about-grid-container {
   margin: 0;
@@ -404,30 +404,104 @@ p {
   background-color: #008552;
 }
 
-.flexcontact {
+/** Contact form section */
+.contact-flex {
+  text-align: center;
+  /* padding: 46px 24px 0px 24px; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  align-self: center;
   color: var(--primary-blue-dark);
-  width: 327px;
+  width: auto;
+  height: auto;
 }
 
-#user_name {
-  border: 1px solid #D0D9D4;
-  border-radius: 4px;
+.contact-flex h2 {
+  padding: 46px 24px 0px 24px;
+}
+
+form {
+  text-align: center;
+  margin-top: 58px;
+  padding: 0px;
+  width: 327px;
+  height: auto;
+  display: flex;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.input-item {
   width: 327px;
   height: 48px;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.contact-flex p {
+.input-item input {
+  padding: 15px 16px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+input::placeholder {
+  color: #6B778C;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+textarea {
   width: 327px;
-  height: 363px;
-  color: var(--primary-blue-dark);
+  height: 114px;
+  padding: 0;
+  border: 1px solid #60C095;
+  border-radius: 4px;
+}
+
+textarea::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 10px;
+  color: var(--primary-blue-dark)
+}
+
+.form-field button {
+  width: 129px;
+  height: 48px;
+  text-align: center;
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  line-height: 24px;
+  font-size: 17px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  color: var(--primary-white-light);
+  background-color: var(--project-btn);
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footermedia-flex {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+
