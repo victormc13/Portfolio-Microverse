@@ -448,6 +448,8 @@ form {
 }
 
 .input-item input {
+  font-family: inherit;
+  font-size: 1rem;
   padding: 15px 16px;
   border: none;
   display: flex;
@@ -461,9 +463,11 @@ input::placeholder {
 }
 
 textarea {
-  width: 327px;
+  width: 90%;
   height: 114px;
-  padding: 0;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
   border: 1px solid #60c095;
   border-radius: 4px;
 }
@@ -473,7 +477,6 @@ textarea::placeholder {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  padding: 10px;
   color: var(--primary-blue-dark);
 }
 
@@ -489,6 +492,23 @@ textarea::placeholder {
   border-radius: 4px;
   color: var(--primary-white-light);
   background-color: var(--project-btn);
+}
+
+.form-btn:enabled {
+  cursor: pointer;
+  color: var(--primary-white-light);
+}
+
+.form-btn:hover {
+  cursor: pointer;
+  color: var(--primary-white-light);
+  background-color: var(--primary-green);
+  box-shadow: 1px 10px 10px var(--primary-green-dark);
+}
+
+.form-btn:active {
+  color: var(--primary-white-light);
+  background-color: #008552;
 }
 
 footer {
