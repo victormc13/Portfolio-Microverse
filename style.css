@@ -86,7 +86,7 @@ header {
 .main-heading {
   margin-top: 4.5rem;
   padding-top: 10%;
-  width: 100vw;
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -146,7 +146,8 @@ p {
   cursor: pointer;
   color: var(--primary-white-light);
   background-color: var(--primary-green);
-  box-shadow: 1px 10px 10px #3a4a42;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
 }
 
 .action:active {
@@ -249,7 +250,8 @@ p {
 }
 
 .project-btn:hover {
-  box-shadow: 1px 10px 10px var(--primary-green-dark);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
 }
 
 .project-btn:active {
@@ -308,7 +310,7 @@ p {
   background-color: var(--project-btn);
 }
 
-/** Here starts */
+/** Here starts cards of About me section */
 
 .about-grid-container {
   margin: 0;
@@ -396,10 +398,148 @@ p {
   cursor: pointer;
   color: var(--primary-white-light);
   background-color: var(--primary-green);
-  box-shadow: 1px 10px 10px var(--primary-green-dark);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
 }
 
 .resume-btn:active {
   color: var(--primary-white-light);
   background-color: #008552;
+}
+
+/** Contact form section */
+.contact-flex {
+  text-align: center;
+
+  /* padding: 46px 24px 0px 24px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--primary-blue-dark);
+  width: auto;
+  height: auto;
+}
+
+.contact-flex h2 {
+  padding: 46px 24px 0 24px;
+}
+
+form {
+  text-align: center;
+  margin-top: 58px;
+  padding: 0;
+  width: 327px;
+  height: auto;
+  display: flex;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.input-item {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-item input {
+  font-family: inherit;
+  font-size: 15px;
+  padding: 15px 16px;
+  border: 2px solid #d0d9d4;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #60c095;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+textarea {
+  width: 90%;
+  height: 114px;
+  padding: 1rem;
+  font-size: 15px;
+  font-family: inherit;
+  border: 2px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+textarea:focus {
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  border: 2px solid #60c095;
+}
+
+.form-field button {
+  width: 129px;
+  height: 48px;
+  text-align: center;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 17px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  color: var(--primary-white-light);
+  background-color: var(--project-btn);
+}
+
+.form-btn:enabled {
+  cursor: pointer;
+  color: var(--primary-white-light);
+}
+
+.form-btn:hover {
+  cursor: pointer;
+  color: var(--primary-white-light);
+  background-color: var(--primary-green);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+.form-btn:active {
+  color: var(--primary-white-light);
+  background-color: #008552;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footermedia-flex {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contact-email {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-email a {
+  margin-bottom: 200px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #42526e;
 }
