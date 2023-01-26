@@ -410,8 +410,6 @@ p {
 /** Contact form section */
 .contact-flex {
   text-align: center;
-
-  /* padding: 46px 24px 0px 24px; */
   display: flex;
   flex-direction: column;
   align-items: center;
