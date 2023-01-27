@@ -35,6 +35,7 @@ span {
 
 h1 {
   color: var(--primary-blue-dark);
+  font-weight: 600;
 }
 
 h3 {
@@ -84,8 +85,8 @@ header {
 
 /** Flex main container  */
 .main-heading {
-  margin-top: 4.5rem;
-  padding-top: 10%;
+  margin: 0;
+  padding-top: 0;
   width: auto;
   height: auto;
   display: flex;
@@ -540,4 +541,54 @@ footer {
   font-size: 20px;
   font-weight: 400;
   color: #42526e;
+}
+
+.header-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    background-image: url(icons/Header-llustration-desktop.svg);
+    min-height: 1100px;
+  }
+
+  .intro-container {
+    width: 920px;
+    height: 656px;
+    padding: 160px, 0, 160px, 0;
+
+    /* min-height: 1000px; */
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .intro-container p {
+    padding: 0 4.5rem;
+  }
+
+  .action-btn {
+    margin-top: 10%;
+    align-items: center;
+  }
+
+  .header-container {
+    display: none;
+  }
+
+  .header-desktop {
+    width: 400px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-blue-dark);
+  }
+
+  .works-section {
+    margin-top: 0;
+  }
 }
