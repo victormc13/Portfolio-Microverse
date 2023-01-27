@@ -243,6 +243,14 @@ p {
   border-radius: 4px;
   color: var(--primary-white-light);
   background-color: var(--project-btn);
+  transition: all 5s;
+}
+
+.project-btn:hover {
+  opacity: 5;
+  background-color: darkcyan;
+  transition: 0s;
+  transform: translateY(4px);
 }
 
 .project-btn:enabled {
