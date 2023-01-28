@@ -562,23 +562,30 @@ footer {
 @media screen and (min-width: 768px) {
   .main-heading {
     background-image: url(icons/Header-llustration-desktop.svg);
-    min-height: 1100px;
+    min-width: 1200px;
+    min-height: 1000px;
+  }
+
+  .header-container {
+    min-width: 1100px;
   }
 
   .intro-container {
-    width: 920px;
-    height: 656px;
+    margin-top: 3rem;
+    max-width: 1000px;
+    min-height: 606px;
     padding: 160px, 0, 160px, 0;
     gap: 24px;
     justify-content: center;
   }
 
   .intro-container p {
+    margin: 0 4%;
     padding: 0 4.5rem;
   }
 
   .action-btn {
-    margin-top: 10%;
+    margin-top: 7%;
     align-items: center;
   }
 
@@ -598,7 +605,12 @@ footer {
     color: var(--primary-blue-dark);
   }
 
+  .works-section {
+    min-width: 1200px;
+  }
+
   .works-grid-container {
+    min-width: 1200px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
@@ -611,6 +623,7 @@ footer {
   }
 
   .about-section {
+    min-width: 1200px;
     text-align: center;
     display: grid;
   }
@@ -661,4 +674,18 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .contact-flex {
+    min-width: 1200px;
+    flex-direction: row;
+  } 
+  /** Till here I left */
+
+  .about-grid-elements {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .contact-flex h2 {
+    flex-grow: 2;
+  } */
 }
