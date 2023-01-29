@@ -247,6 +247,8 @@ p {
 }
 
 .project-btn:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
   opacity: 5;
   background-color: darkcyan;
   transition: 0s;
@@ -256,11 +258,6 @@ p {
 .project-btn:enabled {
   color: var(--primary-white-light);
   background-color: var(--project-btn);
-}
-
-.project-btn:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  border-radius: 4px;
 }
 
 .project-btn:active {
@@ -553,13 +550,17 @@ footer {
   color: #42526e;
 }
 
-.header-desktop, .img-desktop, .footer-img {
+.header-desktop,
+.img-desktop,
+.footer-img {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
-
-  .header-container, .img-mobile, .img-item, .contact-email {
+  .header-container,
+  .img-mobile,
+  .img-item,
+  .contact-email {
     display: none;
   }
 
@@ -645,9 +646,6 @@ footer {
 
   .about-flex-container1 .img-desktop {
     display: flex;
-  }
-
-  .img-desktop {
     align-self: center;
   }
 
@@ -673,19 +671,17 @@ footer {
   .contact-flex {
     min-width: 1200px;
     flex-direction: row;
+    margin-left: 0.5rem;
   }
+
   /** Till here I left */
 
   .about-grid-elements {
     margin: 1rem 0.75rem 1rem 0.75rem;
   }
 
-  .contact-flex {
-    margin-left: 0.5rem;
-  }
-
   .contact-flex h2 {
-    padding: 0px 24px 0px 46px;
+    padding: 0 24px 0 46px;
     font-style: normal;
     max-width: 500px;
     height: 250px;
@@ -736,7 +732,7 @@ footer {
 
   .footer-img3 {
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 3330.17px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
@@ -746,12 +742,11 @@ footer {
     min-width: 1200px;
     padding: 1.5rem;
     margin-top: 450px;
-    border-top: 2px solid #DFE1E6;;
+    border-top: 2px solid #dfe1e6;
     justify-content: center;
   }
 
   .footermedia-flex .order-3 {
     order: 3;
   }
-
 }
