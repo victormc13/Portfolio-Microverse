@@ -661,8 +661,7 @@ footer {
   }
 
   .about-grid-container {
-    margin-top: 1.5rem;
-    margin-left: 5.5%;
+    margin: 1.5rem 1% 0 1%;
     align-self: flex-end;
     width: 1200px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -688,10 +687,6 @@ footer {
     flex-grow: 3;
   }
 
-  .contact-flex form {
-    flex-grow: 2;
-  }
-
   form .form-field {
     display: flex;
     align-items: flex-start;
@@ -700,7 +695,7 @@ footer {
 
   .form-field input,
   textarea {
-    width: 650px;
+    width: 590px;
   }
 
   footer {
@@ -740,7 +735,7 @@ footer {
   .footermedia-flex {
     display: flex;
     min-width: 1200px;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     margin-top: 450px;
     border-top: 2px solid #dfe1e6;
     justify-content: center;
