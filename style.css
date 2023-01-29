@@ -746,7 +746,4 @@ footer {
     justify-content: center;
   }
 
-  .footermedia-flex .order-3 {
-    order: 3;
-  }
 }
