@@ -83,6 +83,10 @@ header {
   background-color: transparent;
 }
 
+.hidden-label {
+  visibility: hidden;
+}
+
 /** Flex main container  */
 .main-heading {
   margin: 0;
