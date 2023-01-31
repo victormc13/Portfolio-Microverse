@@ -101,7 +101,7 @@ After you're finished please remove all the comments and instructions!
 
 - **[Correct set up of git / github flows and set up linters.]**
 - **[The creation and addition of HTML and CSS files in commits.]**
-- **[Mobile-first replicates style one of the portfolio templates.]**
+- **[Mobile and Desktop version of the portfolio responsive web design]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +111,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Add a link to your deployed project. -->
 
-- There is no live demo for this project yet
+- https://victormc13.github.io/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
