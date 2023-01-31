@@ -76,6 +76,7 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <li>GitHub Page</li>
   </ul>
 </details>
 

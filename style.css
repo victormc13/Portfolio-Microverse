@@ -83,10 +83,6 @@ header {
   background-color: transparent;
 }
 
-.hidden-label {
-  visibility: hidden;
-}
-
 /** Flex main container  */
 .main-heading {
   margin: 0;
@@ -448,6 +444,10 @@ form {
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+}
+
+.hidden-label {
+  visibility: hidden;
 }
 
 .input-item {
