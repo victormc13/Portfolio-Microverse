@@ -113,6 +113,7 @@ After you're finished please remove all the comments and instructions!
 <!-- > Add a link to your deployed project. -->
 
 - https://victormc13.github.io/
+- Video presentation: https://www.loom.com/share/ef3730850fba4597af2d5830ccdf7c9d
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
