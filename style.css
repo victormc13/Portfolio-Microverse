@@ -83,6 +83,30 @@ header {
   background-color: transparent;
 }
 
+.menu-mobile {
+  padding-top: 2vh;
+  width: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.close-btn {
+  margin-left: 90%;
+  margin-right: auto;
+  border: transparent;
+  background-color: transparent;
+}
+
+.menu-mobile > ul {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
 /** Flex main container  */
 .main-heading {
   margin: 0;
