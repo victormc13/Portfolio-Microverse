@@ -602,6 +602,11 @@ footer {
     display: none;
   }
 
+  .menu-mobile{
+    position: absolute;
+    visibility: hidden;
+  }
+
   .main-heading {
     background-image: url(icons/Header-llustration-desktop.svg);
     min-width: 1200px;
