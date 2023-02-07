@@ -85,6 +85,7 @@ header {
 
 .menu-mobile {
   position: fixed;
+  display: none;
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -99,6 +100,18 @@ header {
   background-color: transparent;
 }
 
+.content-tags > li {
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  color: var(--primary-green);
+  background-color: var(--primary-white-light);
+}
+
 .menu-mobile > ul {
   position: absolute;
   padding: 1.5rem;
@@ -107,14 +120,27 @@ header {
   gap: 2.5rem;
 }
 
-.menu-mobile > ul li, a:visited {
+.item-tags > li {
+  text-align: center;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-color: var(--secondary-green-light);
+}
+
+.menu-mobile > ul li,
+a:visited,
+a:active,
+a:enabled {
   text-decoration: none;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #3A4A42;
+  color: #3a4a42;
 }
 
 /** Flex main container  */
@@ -256,17 +282,6 @@ p {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-}
-
-.item-tags > li {
-  text-align: center;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 16px;
-  padding: 8px 12px;
-  border-radius: 4px;
-  border: 2px solid transparent;
-  background-color: var(--secondary-green-light);
 }
 
 .project-btn {
@@ -417,18 +432,6 @@ p {
   align-items: center;
   align-content: center;
   gap: 0.5rem;
-}
-
-.content-tags > li {
-  text-align: center;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  padding: 8px 12px;
-  border-radius: 4px;
-  border: 2px solid transparent;
-  color: var(--primary-green);
-  background-color: var(--primary-white-light);
 }
 
 .resume-btn:enabled {
@@ -600,11 +603,6 @@ footer {
   .img-item,
   .contact-email {
     display: none;
-  }
-
-  .menu-mobile{
-    position: absolute;
-    visibility: hidden;
   }
 
   .main-heading {

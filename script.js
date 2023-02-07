@@ -10,4 +10,4 @@ document.querySelector('.close-btn').addEventListener('click', () => {
 
 document.querySelector('.menu-options').addEventListener('click', () => {
   menu.style.display = 'none';
-} )
+});
