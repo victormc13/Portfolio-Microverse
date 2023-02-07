@@ -1,9 +1,13 @@
 const menu = document.querySelector('.menu-mobile');
 
 document.querySelector('.menu-btn').addEventListener('click', () => {
-  menu.style.width = '100%';
+  menu.style.display = 'block';
 });
 
 document.querySelector('.close-btn').addEventListener('click', () => {
-  menu.style.width = '0';
+  menu.style.display = 'none';
 });
+
+document.querySelector('.menu-options').addEventListener('click', () => {
+  menu.style.display = 'none';
+} )
